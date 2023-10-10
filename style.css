@@ -3,25 +3,38 @@ font-family: 'Montserrat', sans-serif;
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-background-color: #FFB8DE;
+background-color: #ffb8de;
 text-decoration: none;
-color: #000;
+color: #1d1019df;
 list-style: none;
 }
 header{
+    opacity: 70%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 60px;
-    padding: 20px 0px;
+    height: 80px;
+    padding: 60px 80px;
+}
+header h2{
+    font-size: 30px;
+}
+.box-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo-image {
+    height: 55px;
+    width: 55px;
 }
 nav ul{
     display: flex;
-    gap: 20px;
+    gap: 50px;
 
 }
 a:hover {
-    color: #89023E;
+    color: #eb17ac;
 }
 .sessao{
     height: 100vh;
@@ -31,10 +44,14 @@ a:hover {
     justify-content: space-around;
 
 }
-.sessao img{
+.card-home{
+    background-color: #eb17ac;
     width: 500px;
-
+    height: 500px;
+    display: flex;
+    justify-content: center;
 }
+
 .direcao {
     flex-direction: column;
     justify-content: center;
@@ -42,6 +59,7 @@ a:hover {
 }
 .direcao img{
     width: 300px;
+    height: 250px;
     margin-right: 45px;
 }
 footer {
@@ -50,3 +68,9 @@ footer {
     text-align: center;
     padding: 10px;
 }
+img:hover {
+    
+
+}
+
+
