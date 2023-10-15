@@ -1,13 +1,17 @@
+/* reset da pagina */
 *{
 font-family: 'Montserrat', sans-serif;
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-background-color: #ffb8de;
 text-decoration: none;
 color: #1d1019df;
 list-style: none;
 }
+body {
+    background-color: #ffb8de;
+}
+/*configuração do header*/
 header{
     display: flex;
     align-items: center;
@@ -51,6 +55,7 @@ header, .box-logo, .logo, .logo-image, ul, li, .link {
     letter-spacing: 3px;
 
 }
+/*cofiguração da home*/
 .home {
     width: 100%;
     height: 100vh;
@@ -77,46 +82,142 @@ header, .box-logo, .logo, .logo-image, ul, li, .link {
     letter-spacing: 5px;
 
 }
-.sessao{
+/*configuração da pagina sobre*/
+.sobre {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
 
 }
-.direcao {
+/*configuração das skills*/
+.skills {
+    height: 100vh;
+    width: 100%;
+    display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     gap: 50px;
 }
-.direcao img{
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.5);
-    width: 300px;
-    height: 250px;
-    transition: all .5s ease-in-out;
-    filter: grayscale(100);
-
-}
-.direcao img:hover {
-    transform: scale(1.1);
-    filter: grayscale(0);
-
-}
-.box-image {
+.box-skill {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 50px;
     flex-wrap: wrap;
-    gap: 45px;
-    font-size: 20px;
+
 }
-.box-skill img {
+.skills .box-skill img {
     width: 200px;
     height: 200px;
     margin-left: 20px;
+    box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.5);
+    transition: all .5s ease-in-out;
     filter: blur(2px);
+    border-radius: 10px;
+
+}
+.skills .box-skill img:hover {
+    transform: scale(1.1);
+    filter: blur(0px);
+
+}
+/*configuração dos projetos*/
+.projetos {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.box-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.card {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    filter: grayscale(100);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+
+}
+.card:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+    
+}
+.box-text-card {
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.box-text-card h3 {
+    color: transparent;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box-text-card h3:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.35);
+    
+}
+.projeto-1 {
+    background-image: url("./img/projeto01.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+.projeto-2 {
+    background-image: url("./img/projeto02.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.projeto-3 {
+    background-image: url("./img/projeto03.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.projeto-4 {
+    background-image: url("./img/projeto04.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+/*configuração dos contatos*/
+.contato {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    
 }
 .box-contatos {
     text-align: center;
@@ -125,28 +226,9 @@ header, .box-logo, .logo, .logo-image, ul, li, .link {
     gap: 10px;
 
 }
-.card {
-    background-image: url("./img1.jpeg");
-    width: 300px;
-    height: 250px;
-    border-radius: 20px;
-}
-.card p{
-    color: transparent;
-
-}
-.card p:hover {
-    color: #000;
-}
 footer {
     height: 40px;
     background-color: #FFFFFF;
     text-align: center;
     padding: 10px;
 }
-img:hover {
-    
-
-}
-
-
