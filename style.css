@@ -91,7 +91,13 @@ header, .box-logo, .logo, .logo-image, ul, li, .link {
     justify-content: center;
     flex-direction: column;
     gap: 50px;
-
+    
+}
+.sobre p {
+    text-align: center;
+    width: 40%;
+    font-size: 20px;
+    line-height: 30px;
 }
 /*configuração das skills*/
 .skills {
@@ -174,6 +180,7 @@ header, .box-logo, .logo, .logo-image, ul, li, .link {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 }
 .box-text-card h3:hover {
@@ -182,27 +189,27 @@ header, .box-logo, .logo, .logo-image, ul, li, .link {
     
 }
 .projeto-1 {
-    background-image: url("./img/projeto01.jpeg");
+    background-image: url("./img/codigo-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;   
 }
 .projeto-2 {
-    background-image: url("./img/projeto02.jpeg");
+    background-image: url("./img/ramsonware.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
 }
 .projeto-3 {
-    background-image: url("./img/projeto03.jpeg");
+    background-image: url("./img/3872690.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
 }
 .projeto-4 {
-    background-image: url("./img/projeto04.jpeg");
+    background-image: url("./img/snake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -217,7 +224,7 @@ header, .box-logo, .logo, .logo-image, ul, li, .link {
     align-items: center;
     flex-direction: column;
     gap: 50px;
-    
+
 }
 .box-contatos {
     text-align: center;
