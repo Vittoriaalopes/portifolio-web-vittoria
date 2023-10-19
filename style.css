@@ -233,6 +233,57 @@ header, .box-logo, .logo, .logo-image, ul, li, .link {
     gap: 10px;
 
 }
+.box-form {
+    width: 500px;
+    height: 500px;
+    background-color: #eb17ac;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+
+}
+label {
+    display: flex;
+    flex-direction: column;
+
+}
+input {
+    margin-top: 5px;
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all .5s ease-in-out;
+    
+}
+button:hover {
+    color: #fff;
+    background-color: #ffb8de;
+    
+}
 footer {
     height: 40px;
     background-color: #FFFFFF;
